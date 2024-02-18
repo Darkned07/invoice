@@ -1,0 +1,320 @@
+.uxlist {
+  margin-top: 15px;
+}
+
+.uxlist__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+
+.uxlist__li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px 10px rgba(72, 84, 159, 0.1);
+  background: rgb(255, 255, 255);
+  padding: 16px 32px;
+}
+
+.uxlist__h2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(126, 136, 195);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+.uxlist__h2__span {
+  color: rgb(12, 14, 22);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+.uxlist__span__one {
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  color: rgb(136, 142, 176);
+}
+
+.uxlist__h3 {
+  color: rgb(133, 139, 178);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+.uxlist__h2__one {
+  color: rgb(12, 14, 22);
+  font-family: "Spartan";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.8px;
+}
+
+.uxlist__btn {
+  border-radius: 6px;
+  background: rgb(51, 214, 159);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  opacity: 1;
+}
+
+.uxlist__btn_1 {
+  border-radius: 6px;
+  background: rgb(255, 143, 0);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  opacity: 1;
+}
+.uxlist__btn_2 {
+  border-radius: 6px;
+  background: rgb(55, 59, 83);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  opacity: 1;
+}
+
+.uxlist__btn__span {
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 100%;
+}
+
+.uxlist__btn__span_1 {
+  width: 8px;
+  height: 8px;
+  background-color: orangered;
+  border-radius: 100%;
+}
+.uxlist__btn__span_2 {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.uxlist__btn__span_s {
+  color: green;
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+.uxlist__btn__span_s_1 {
+  color: orangered;
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+.uxlist__btn__span_s_2 {
+  color: black;
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+.uxlist__img {
+  width: 8px;
+  height: 12px;
+}
+
+.uxlist__res__one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.uxlist__res__two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.uxlists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+@media screen and (max-width: 970px) {
+  .uxlist {
+    padding: 14px 14px;
+  }
+  .uxlist__li {
+    gap: 30px;
+  }
+  .uxlist__res__one {
+    gap: 30px;
+  }
+  .uxlist__res__two {
+    gap: 30px;
+  }
+  .uxlists {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .uxlist__li {
+    gap: 15px;
+  }
+  .uxlist__res__one {
+    gap: 15px;
+  }
+  .uxlist__res__two {
+    gap: 15px;
+  }
+  .uxlists {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .uxlist__li {
+    gap: 50px;
+  }
+  .uxlist__res__one {
+    gap: 50px;
+  }
+  .uxlist__res__two {
+    gap: 50px;
+  }
+  .uxlists {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .uxlist__li {
+    gap: 30px;
+  }
+  .uxlist__res__one {
+    gap: 30px;
+  }
+  .uxlist__res__two {
+    gap: 30px;
+  }
+  .uxlists {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  .uxlist__li {
+    gap: 20px;
+  }
+  .uxlist__res__one {
+    gap: 20px;
+  }
+  .uxlist__res__two {
+    gap: 20px;
+  }
+  .uxlists {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .uxlist__li {
+    gap: 10px;
+  }
+  .uxlist__res__one {
+    gap: 10px;
+  }
+  .uxlist__res__two {
+    gap: 10px;
+  }
+  .uxlists {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .uxlist__img {
+    display: none;
+  }
+  .uxlist__res__one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 180px;
+  }
+  .uxlist__res__two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 180px;
+  }
+  .uxlist__li {
+    flex-direction: column;
+  }
+  .uxlists {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .uxlist__res__one {
+    gap: 150px;
+  }
+  .uxlist__res__two {
+    gap: 150px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .uxlist__res__one {
+    gap: 100px;
+  }
+  .uxlist__res__two {
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 287px) {
+  .uxlist__res__one {
+    gap: 50px;
+  }
+  .uxlist__res__two {
+    gap: 50px;
+  }
+}

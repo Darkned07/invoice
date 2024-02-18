@@ -1,0 +1,457 @@
+.uxitem__back {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  color: rgb(12, 14, 22);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  text-align: left;
+}
+
+.uxitem {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.uxlist__btn {
+  border-radius: 6px;
+  background: rgb(51, 214, 159);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  opacity: 1;
+}
+
+.uxlist__btn_1 {
+  border-radius: 6px;
+  background: rgb(255, 143, 0);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  opacity: 1;
+}
+.uxlist__btn_2 {
+  border-radius: 6px;
+  background: rgb(55, 59, 83);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+  opacity: 1;
+}
+
+.uxlist__btn__span {
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 100%;
+}
+
+.uxlist__btn__span_1 {
+  width: 8px;
+  height: 8px;
+  background-color: orangered;
+  border-radius: 100%;
+}
+.uxlist__btn__span_2 {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.uxlist__btn__span_s {
+  color: green;
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+.uxlist__btn__span_s_1 {
+  color: orangered;
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+.uxlist__btn__span_s_2 {
+  color: black;
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+.ux__item__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 32px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px 10px rgba(72, 84, 159, 0.1);
+  background: rgb(255, 255, 255);
+  gap: 400px;
+}
+
+.ux__item__con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+}
+
+.ux__item__h2 {
+  color: rgb(133, 139, 178);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+.ux__item__divs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.ux__btn__edit {
+  border-radius: 24px;
+  background: rgb(249, 250, 254);
+  color: rgb(126, 136, 195);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  padding: 17px 23px 16px 24px;
+}
+
+.ux__btn__edit:hover {
+  background-color: rgb(223, 227, 250);
+}
+
+.ux__btn__delete {
+  border-radius: 24px;
+  background: rgb(236, 87, 87);
+  color: rgb(255, 255, 255);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  padding: 17px 24px 16px 24px;
+}
+
+.ux__btn__delete:hover {
+  background: rgb(255, 151, 151);
+}
+
+.ux__btn__mark {
+  border-radius: 24px;
+  background: rgb(124, 93, 250);
+  color: rgb(255, 255, 255);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  padding: 17px 23px 16px 24px;
+}
+
+.ux__btn__mark:hover {
+  background: rgb(146, 119, 255);
+}
+
+.uxs {
+  padding: 48px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px 10px rgba(72, 84, 159, 0.1);
+  background: rgb(255, 255, 255);
+}
+
+.uxs__con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.uxs__con__1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.uxs__con__h2 {
+  font-family: "Spartan";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.8px;
+  color: rgb(136, 142, 176);
+}
+.uxs__h2__span {
+  font-family: "Spartan";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.8px;
+  color: rgb(12, 14, 22);
+}
+.uxs__con__span {
+  color: rgb(126, 136, 195);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+.uxs__con__2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: end;
+}
+
+.uxs__con__li {
+  color: rgb(126, 136, 195);
+  font-family: "Spartan";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.23px;
+}
+
+.uxs__contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.uxs__cons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.uxs__li {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.uxs__span {
+  color: rgb(126, 136, 195);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+.uxs__li__h2 {
+  color: rgb(12, 14, 22);
+  font-family: "Spartan";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.31px;
+}
+
+.uxs__ulist {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: start;
+}
+.uxs__ulist__li {
+  color: rgb(126, 136, 195);
+  font-family: "Spartan";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.23px;
+  text-align: left;
+}
+.uxs__one {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.uxs__two {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.uxs__cl__em {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.uxs__cl_em__span {
+  color: rgb(126, 136, 195);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+.uxs__cl__em__h2 {
+  color: rgb(12, 14, 22);
+  font-family: "Spartan";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.31px;
+}
+
+.uv__uxs {
+  border-radius: 8px 8px 0px 0px;
+  background: rgb(249, 250, 254);
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.uv__list__sp__name {
+  color: rgb(12, 14, 22);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  text-align: left;
+}
+
+.uv__list__names {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.uv__list__name {
+  color: rgb(126, 136, 195);
+  font-family: "Spartan";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.23px;
+}
+.uv__footer {
+  padding: 24px 32px;
+  border-radius: 0px 0px 8px 8px;
+  background: rgb(55, 59, 83);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.uv__footer__h2 {
+  color: rgb(255, 255, 255);
+  font-family: "Spartan";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.23px;
+}
+.uv__footer__total {
+  color: rgb(255, 255, 255);
+  font-family: "Spartan";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+}
+.ux__item__hd {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .ux__item__content {
+    gap: 350px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .ux__item__content {
+    gap: 300px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .ux__item__content {
+    gap: 200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ux__item__content {
+    gap: 150px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .ux__item__content {
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ux__item__content {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ux__item__content {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .ux__item__divs {
+    display: none;
+  }
+  .ux__item__con {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .uxs__cons {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .ux__item__hd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .uxs__con {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .uxs__con__2 {
+    text-align: start;
+  }
+  .uxs__contents {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

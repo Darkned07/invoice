@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.max-container {
+  max-width: 1000px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+}
+
+main {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.empty__img {
+  width: 240px;
+  height: 200px;
+}
+
+.empty__h2 {
+  color: rgb(12, 14, 22);
+  font-family: "Spartan";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.63px;
+  margin-top: 62px;
+  margin-bottom: 24px;
+}
+
+.empty__p {
+  color: rgb(136, 142, 176);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  max-width: 160px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .max-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .max-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  main {
+    margin-top: 8px;
+  }
+  .empty__img {
+    width: 193px;
+    height: 160px;
+  }
+  .empty__h2 {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  .empty__p {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,278 @@
+.item {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item__div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-left: 400px;
+}
+
+.item__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item__h2 {
+  color: rgb(12, 14, 22);
+  font-family: "Spartan";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+
+.item__span {
+  color: rgb(136, 142, 176);
+  font-family: "Spartan";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+.item__div__btn {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  color: rgb(12, 14, 22);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+.item__div__btn__btn {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 24px;
+  background: rgb(124, 93, 250);
+  padding: 8px 15px 8px 8px;
+  color: rgb(255, 255, 255);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+.img__div__help {
+  width: 32px;
+  height: 32px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.im__con__btn {
+  width: 10px;
+  height: 10px;
+}
+
+.hd__ul {
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px 0px rgba(72, 84, 159, 0.25);
+  background: rgb(255, 255, 255);
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  position: absolute;
+  top: 97px;
+  left: 780px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hd__ul__li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+}
+
+.hd__ul__input {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  background: rgb(223, 227, 250);
+}
+
+.hd__ul__span {
+  color: rgb(12, 14, 22);
+  font-family: "Spartan";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  text-align: left;
+}
+
+.hd {
+  display: none;
+}
+
+.hd:hover {
+  display: block;
+}
+
+.item__div__btn:hover + .hd {
+  display: block;
+}
+
+@media screen and (max-width: 1118px) {
+  .item__div {
+    margin-left: 380px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .item__div {
+    margin-left: 350px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .item__div {
+    margin-left: 300px;
+  }
+  .hd__ul {
+    left: 670px;
+    top: 97px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .item__div {
+    margin-left: 260px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .item__div {
+    margin-left: 260px;
+  }
+  .hd__ul {
+    left: 650px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .item__div {
+    margin-left: 200px;
+  }
+  .hd__ul {
+    left: 580px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .item__div {
+    margin-left: 150px;
+  }
+  .hd__ul {
+    left: 500px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .item__div {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .item__div {
+    margin-left: 50px;
+  }
+  .hd__ul {
+    left: 400px;
+    top: 96px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item__div {
+    margin-left: 0px;
+  }
+  .hd__ul {
+    left: 400px;
+    top: 190px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .hd__ul {
+    left: 350px;
+    top: 176px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .hd__ul {
+    left: 300px;
+    top: 176px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .hd__ul {
+    left: 250px;
+    top: 176px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .hd__ul {
+    left: 180px;
+    top: 176px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hd__ul {
+    left: 130px;
+    top: 176px;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .item__h2 {
+    font-size: 25px;
+  }
+  .item__span {
+    font-size: 12px;
+  }
+  .item__content {
+    gap: 1px;
+  }
+  .item__div {
+    gap: 2px;
+  }
+  .hd__ul {
+    left: 100px;
+    top: 170px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .hd__ul {
+    top: 120px;
+    left: 100px;
+  }
+}
